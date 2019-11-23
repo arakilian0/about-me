@@ -1,5 +1,8 @@
 # about-me
+
 Command Line Interface that outputs random facts about me!
+
+[![Build Status](https://travis-ci.com/arakilian0/gulpify.svg?branch=master)](https://travis-ci.com/arakilian0/gulpify) [![GitHub release](https://img.shields.io/github/release/arakilian0/gulpify.svg)](https://github.com/arakilian0/gulpify/releases/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/arakilian0/gulpify/blob/master/LICENSE.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/arakilian0/gulpify/blob/master/CONTRIBUTING.md)
 
 ## Install
 ```
