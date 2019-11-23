@@ -1,5 +1,5 @@
-#about-me
-Command Line Interface to generate random facts about me (Michael Arakilian)!
+# about-me
+Command Line Interface that outputs random facts about me!
 
 ## Install
 ```

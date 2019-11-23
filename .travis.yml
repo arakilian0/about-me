@@ -1,0 +1,9 @@
+language: cpp
+compiler:
+  - clang
+  - gcc
+script:
+  - clang++ src/main.cpp -o clang/main
+  - g++ src/main.cpp -o gcc/main
+  - ./clang/main
+  - ./gcc/main
