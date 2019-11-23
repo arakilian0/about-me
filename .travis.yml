@@ -3,7 +3,7 @@ compiler:
   - clang
   - gcc
 script:
-  - clang++ src/main.cpp -o clang/main
-  - g++ src/main.cpp -o gcc/main
-  - ./clang/main
-  - ./gcc/main
+  - clang++ src/main.cpp -o cmain
+  - g++ src/main.cpp -o gmain
+  - cmain
+  - gmain
