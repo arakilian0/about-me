@@ -1,8 +1,6 @@
-#include <iostream>
 #include <fstream>
 #include <string>
 #include <array>
-
 #define MAX_FACTS 100
 
 using namespace std;

@@ -1,18 +1,21 @@
-#include <iostream>
-#include <string>
-#include <array>
 #include <cstdlib>
 #include <ctime>
-
 #include "fta.h"
 
 using namespace std;
 
-string fact () {
+string fact (int idx = -1) {
   array<string, MAX_FACTS> FactArray = FileToArray("facts.txt");
-  srand((unsigned) time(0));
-  int RandomNumber = rand() % 100;
+	int RandomNumber, oidx;
 
-  // cout << RandomNumber << endl;
-  return FactArray[RandomNumber];
+	if(idx > -1 && idx <= MAX_FACTS - 1) {
+		oidx = idx;
+	}
+	else {
+		srand((unsigned) time(0));
+		RandomNumber = rand() % 100;
+		oidx = RandomNumber;
+	}
+
+	return FactArray[oidx];
 }

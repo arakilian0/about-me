@@ -1,3 +1,4 @@
 #!/bin/bash
 
+rm ./dist/mac/arakilian0
 clang++ src/main.cpp -o dist/mac/arakilian0

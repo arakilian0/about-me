@@ -4,14 +4,21 @@
 
 [![Build Status](https://travis-ci.com/arakilian0/about-me.svg?branch=master)](https://travis-ci.com/arakilian0/about-me) [![GitHub release](https://img.shields.io/github/release/arakilian0/about-me.svg)](https://github.com/arakilian0/about-me/releases/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/arakilian0/about-me/blob/master/LICENSE.md)
 
+*Note: This project has only been tested on **macOS**. All commands are intended to be used for macOS systems.*
+
 ## Install
 ```
-coming soon...
+$ git clone https://github.com/arakilian0/about-me.git
+```
+
+## Build
+```
+$ ./run/mac/build
 ```
 
 ## Usage
 ```
-coming soon...
+$ ./run/mac/test
 ```
 
 ## License
