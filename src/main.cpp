@@ -1,9 +1,12 @@
 #include <iostream>
-#include <fstream>
-using namespace std;
+#include <string>
+
+#include "os.h"
 
 int main()
 {
-  cout << "Hello World!" << endl;
+  const std::string OS = os();
+
+  std::cout << OS << std::endl;
   return 0;
 }
