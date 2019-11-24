@@ -1,10 +1,10 @@
 #include <string>
 
-std::string os ()
-{
-  std::string platform;
+using namespace std;
 
-  // mac ?
+string os () {
+  string platform;
+
   #if defined (__APPLE__)
   {
     platform = "darwin";
@@ -12,7 +12,6 @@ std::string os ()
   }
   #endif
 
-  // linux ?
   #if defined (__linux__)
   {
     platform = "linux";
@@ -20,7 +19,6 @@ std::string os ()
   }
   #endif
 
-  // windows 32-bit ?
   #if defined (__WIN32)
   {
     platform = "win32";
@@ -28,7 +26,6 @@ std::string os ()
   }
   #endif
 
-  // windows 64-bit ?
   #if defined (__WIN64)
   {
     platform = "win64";

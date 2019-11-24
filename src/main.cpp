@@ -2,11 +2,15 @@
 #include <string>
 
 #include "os.h"
+#include "fact.h"
+
+using namespace std;
 
 int main()
 {
-  const std::string OS = os();
+  string OS = os();
+  string FACT = fact();
 
-  std::cout << OS << std::endl;
+  cout << FACT << endl;
   return 0;
 }
