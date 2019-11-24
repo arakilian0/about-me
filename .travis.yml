@@ -1,12 +1,6 @@
-os:
-  - linux
-  - osx
+os: osx
 language: cpp
-compiler:
-  - clang
-  - gcc
+compiler: clang
 script:
   - clang++ src/main.cpp -o cmain
-  - g++ src/main.cpp -o gmain
   - ./cmain
-  - ./gmain
