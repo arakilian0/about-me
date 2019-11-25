@@ -7,11 +7,9 @@ using namespace std;
 int CharToInt(char ichar[]) {
 	int ochar = 0;
 
-	try {
-		ochar = stoi(ichar);
-	}
+	try { ochar = stoi(ichar) }
 	catch (invalid_argument&) {
-		cout << "Input a number between 0-99 to pick a fact by index." << endl;
+		cout << "Warning: invalid argument(s) given to CharToInt() - char type only." << endl;
 		exit(0);
 	}
 
