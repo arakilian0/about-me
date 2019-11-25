@@ -1,4 +1,3 @@
-#include <iostream>
 #include "fact.h"
 #include "cti.h"
 
@@ -13,12 +12,8 @@ int main(int argc, char** argv) {
 	else {
 		for (i = 0; i < argc; i++) {
 			if (i == 1) {
-				cout << "coming soon..." << endl;
-
-				// the commented code below is in development
-
-				// index = CharToInt(argv[i]);
-				// cout << fact(index) << endl;
+				index = CharToInt(argv[i]);
+				cout << fact(index) << endl;
 			}
 		}
 	}

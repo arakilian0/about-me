@@ -1,13 +1,19 @@
 #include <iostream>
+#include <typeinfo>
+#include <string>
 
 using namespace std;
 
 int CharToInt(char ichar[]) {
-	int ochar;
+	int ochar = 0;
 
-	cout << ichar << endl;
+	try {
+		ochar = stoi(ichar);
+	}
+	catch (invalid_argument&) {
+		cout << "Input a number between 0-99 to pick a fact by index." << endl;
+		exit(0);
+	}
 
-	// convert ichar to int
-	// replace '0' with ochar
-	return 0;
+	return ochar;
 }
