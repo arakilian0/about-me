@@ -6,19 +6,34 @@
 
 *Note: This project has only been tested on **macOS**. All commands are intended to be used for macOS systems.*
 
+## Requirements
+```
+- Clang Compiler
+```
+
 ## Install
 ```
 $ git clone https://github.com/arakilian0/about-me.git
+
+# Or simply download a zipped version using the big green button
 ```
 
 ## Build
 ```
 $ ./run/mac/build
+
+# You might need to make the file executable first
+
+$ chmod +x run/mac/build
 ```
 
 ## Usage
 ```
 $ ./run/mac/test
+
+# You might need to make the file executable first
+
+$ chmod +x run/mac/test
 ```
 
 ## License
