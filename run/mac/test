@@ -1,11 +1,8 @@
 #!/bin/bash
-
 ARGUMENTS=""
-ENTRY="./dist/mac/arakilian0"
-
+ENTRY="./bin/v0.1.0-mac"
 for arg in $@; do
   ARGUMENTS+="$arg ";
 done
-
 COMMAND="$ENTRY $ARGUMENTS"
 $COMMAND
