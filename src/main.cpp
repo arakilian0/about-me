@@ -1,5 +1,5 @@
-#include "fact.h"
 #include "cti.h"
+#include "fact.h"
 
 using namespace std;
 

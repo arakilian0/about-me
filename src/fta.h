@@ -12,9 +12,7 @@ array< string, MAX_FACTS > FileToArray(string ifile) {
   unsigned int FactArrayLength = 0;
 
   while(getline(facts, Fact)) {
-		if (FactArrayLength < MAX_FACTS) {
-	  	FactArray[FactArrayLength++] = Fact;
-		}
+		if (FactArrayLength < MAX_FACTS) { FactArray[FactArrayLength++] = Fact; }
   }
 
   return FactArray;
